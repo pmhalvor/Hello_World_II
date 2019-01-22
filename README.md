@@ -1,12 +1,12 @@
 # Hello_World_II
 
-## ABOUT
+### ABOUT
 This repository is a collection of the various projects I've worked on throughout my journey into the world of computer science.
 
-### Examples
+## Examples
 This directory consists of example files for each of the programming languages I've learn. They are definately not finished, but will they every really be finished?
 
-### FIFA
+## FIFA
 This is my first data scraping project, made with the help from:
 https://towardsdatascience.com/master-python-through-building-real-world-applications-part-6-d05a7ea58a23
 
