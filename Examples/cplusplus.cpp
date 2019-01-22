@@ -5,6 +5,5 @@ using std::cout, std::cin, std::endl;
 
 
 int main(){
-cout << "This is a test run" << endl;
-
+    cout << "This is a test run" << endl;
 }
