@@ -1,7 +1,7 @@
 """
 Created on Sat Nov 10 21:40:28 2018
 
-@author: halvor23
+@author: github.com/pmhalvor
 
 Python version 3.6.1
 
