@@ -16,7 +16,7 @@ Arguments:
 n = 25
 p = 0.05
 
-# create arrays
+# Create arrays for all possible X's and their respective probabilities
 x   = np.arange(0, n)
 pdf = binom.pmf(x, n, p)
 

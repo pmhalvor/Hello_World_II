@@ -29,10 +29,21 @@ success = sbinom(M,x)
 nonsucc = sbinom(N-M,n-x)
 allposs = sbinom(N,n)
 h = success*nonsucc/allposs
-print(h[X])
 
 # Plot bar graph of distribution
-plt.bar(x, success*nonsucc/allposs)
+plt.bar(x, h)
 plt.show()
 
 # Find specific instances of P(X=x)
+print(h[X])
+print(h[X])
+
+# Find expectation value
+Ex = sum(h*x)
+print("Expectation value {:7.5f}".format(Ex))
+
+# Find variance and standard deviation
+Ex2 = sum(h*(x**2))
+Vx = Ex2 - Ex**2
+print("Variance {:7.5f}".format(Vx))
+print("Standard deviation {:7.5f}".format(np.sqrt(Vx)))
