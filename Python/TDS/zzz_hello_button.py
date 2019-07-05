@@ -1,5 +1,10 @@
 from tkinter import *
 
+"""
+Prints message to command line when button is pressed (thats it)
+
+"""
+
 class Application(Frame):
     def say_hi(self):
         print("hi there, everyone!")

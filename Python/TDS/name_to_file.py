@@ -1,6 +1,11 @@
 import tkinter as tk
 import os
 
+"""
+Simple code that takes name as input and adds to file names.txt
+
+"""
+
 def save_data():
     text = name.get().strip()
     if text: # checks for empty entries
