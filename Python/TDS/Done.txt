@@ -1,2 +1,16 @@
 Done List:
 read from files
+delete from idea file
+move from lists
+double click todo
+double click done
+double click work
+remove titles in files
+find way abstract delete
+move from one list to next
+check for repeats
+e
+x
+t
+r
+a

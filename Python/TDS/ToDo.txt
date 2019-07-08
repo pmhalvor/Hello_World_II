@@ -1,5 +1,7 @@
 ToDo List:
 save money
-move from one list to next
-idea 2
-find way abstract delete
+update git blogs
+width of lists
+width of entry
+crtlW quit
+help button

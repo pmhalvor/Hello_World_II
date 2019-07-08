@@ -1,3 +1,6 @@
-Idea List:
-idea1
-idea 2
+Idea:
+autoresize
+global call corkboard.py
+check box for cmd info
+help button
+grapoh showing tasks
