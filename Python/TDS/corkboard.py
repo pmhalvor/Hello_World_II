@@ -210,48 +210,50 @@ create_file('Done')
 
 
 #Label
-l = tk.Label(master, text='Task:')
-l.grid(row=1,column=0)
+l = tk.Label(master, text='Enter task in space below:')
+l.grid(row=0,column=0)
 
+xtra = tk.Label(master, text=' ')
+xtra.grid(row=2,column=0)
 
 #Buttons
 Q = tk.Button(master, text='Quit', command=master.quit)
-Q.grid(row=2, column=4, sticky=tk.E) #Adds to stage #sticky=tk.W---> west
+Q.grid(row=5, column=3, sticky=tk.E) #Adds to stage #sticky=tk.W---> west
 
 I = tk.Button(master, text='Idea', command=add_Idea)
-I.grid(row=2, column=0, sticky=tk.W) #adds to stage
+I.grid(row=3, column=0) #adds to stage
 
-T = tk.Button(master, text='Todo', command=add_ToDo)
-T.grid(row=2, column=1, sticky=tk.W) #adds to stage
+T = tk.Button(master, text='ToDo', command=add_ToDo)
+T.grid(row=3, column=1) #adds to stage
 
 W = tk.Button(master, text='Work', command=add_Work)
-W.grid(row=2, column=2, sticky=tk.W) #adds to stage
+W.grid(row=3, column=2) #adds to stage
 
 D = tk.Button(master, text='Done', command=add_Done)
-D.grid(row=2, column=3, sticky=tk.W) #adds to stage
+D.grid(row=3, column=3) #adds to stage
 
 
 #Inbox
-entry = tk.Entry(master)
-entry.grid(row=1, column=1, columnspan=4)
+entry = tk.Entry(master, width=100)
+entry.grid(row=1, column=0, columnspan=4)
 master.bind('<Return>', add_Idea)
 
 
 # Create listboxes and insert to scene
-Idea = tk.Listbox(master)
-Idea.grid(row=3, column=0)
+Idea = tk.Listbox(master, width=25, height=15)
+Idea.grid(row=4, column=0, sticky=tk.N+tk.S)
 Idea.bind('<Double-Button-1>', move_to_ToDo)
 
-ToDo = tk.Listbox(master)
-ToDo.grid(row=3, column=1)
+ToDo = tk.Listbox(master, width=25, height=15)
+ToDo.grid(row=4, column=1)
 ToDo.bind('<Double-Button-1>', move_to_Work)
 
-Work = tk.Listbox(master)
-Work.grid(row=3, column=2)
+Work = tk.Listbox(master, width=25, height=15)
+Work.grid(row=4, column=2)
 Work.bind('<Double-Button-1>', move_to_Done)
 
-Done = tk.Listbox(master)
-Done.grid(row=3, column=3)
+Done = tk.Listbox(master, width=25, height=15)
+Done.grid(row=4, column=3)
 Done.bind('<Double-Button-1>', delete_from_done)
 
 
