@@ -3,6 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 import pandas
 
+"""
+This file scraps the player ids from every player in the 2018 world cup,
+and stores info in file player_ids.csv
+
+"""
+
 # Request URL
 page = requests.get("https://www.fifa.com/worldcup/players/_libraries/byposition/[id]/_players-list")
 

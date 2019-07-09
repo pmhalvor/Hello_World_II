@@ -15,12 +15,6 @@ This file is for analysing a text file and catagorizing the top used words,
 
 """
 
-
-"""
-infile = open("ha.txt", 'w')   #clears and opens any file named text.txt in dir
-infile.write("ha")
-infile.close()
-"""
 #coding: utf-8
 import string
 

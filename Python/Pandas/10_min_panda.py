@@ -2,6 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+This was an article I foudn but never ended up completing...
+
+"""
+
 ##############Object creation###########################
 s = pd.Series([1,3,7,np.nan,9,13])
 

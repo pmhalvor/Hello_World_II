@@ -4,6 +4,11 @@ from bs4 import BeautifulSoup
 import pandas
 from collections import OrderedDict
 
+"""
+This file scraps each players basic info like age, height and nationality
+
+"""
+
 #Fetch Player ID's
 player_ids = pandas.read_csv("player_ids.csv")
 ids = player_ids["Ids"]
