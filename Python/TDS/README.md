@@ -22,11 +22,13 @@ Use the entry box to insert new task. Send the task directly to the Idea List by
 
 A task can be be moved to the next list (to the right) by double-clicking it. 
 ![](images/doubleclick.PNG)
+
 A possible triple-click for moving backwards may be implemented in the next update.
 
 
 ### Exit
 
 To end the program, click on the 'Quit' button on the bottom right corner.
-\n
+
+
 ![](images/quit.PNG)
