@@ -3,6 +3,7 @@
 This repository is a collection of the various projects I've worked on throughout my journey into the world of computer science.
 
 ## Python
+Explaination for all the files in Python directory.
 
 ### Examples
 
