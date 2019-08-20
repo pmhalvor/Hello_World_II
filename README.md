@@ -5,17 +5,11 @@ This repository is a collection of the various projects I've worked on throughou
 ## Python
 Overview of all the files in the Python directory. Further explainations can be found in the directory's README.md.
 
-
 ### Astronomy
-
+(finished)
 ### Examples
-
 ### FIFA
-
 ### File Reader
-
 ### Google
-
 ### Statistics
-
 ### TDS
