@@ -5,3 +5,4 @@ width of lists
 width of entry
 crtlW quit
 help button
+ind. button functions

@@ -7,12 +7,11 @@ from read_textfile import file_to_dic, print_table
 
 """
 This program searches Google, and will eventually determine the websites
-position on cannabis by pulling top 100-500 words and comparing them.
-
+position on a topic by pulling top 100-500 words and comparing them.
 
 """
 # Get List of search result websites
-query = "cannabis norge"
+query = "my topic"
 list_of_sites = []
 
 for i in search(query, tld="com", num=10, stop=10):
