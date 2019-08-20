@@ -1,3 +1,5 @@
+A short description of of the project in this folder.
+
 ### Astronomy
 
 This folder contains the three group project I was a part of in my Astronomy class at Michigan State University. We were a group of 4 guys, where three of us had the responsibility of coding. The other group members' names are included in each of the projects. I wrote ~1/3 of the code.
