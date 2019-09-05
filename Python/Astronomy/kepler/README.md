@@ -53,30 +53,30 @@ Last we used the RK4 method. This method takes the weighted average of several m
 
 Using the three methods we mapped out three orbital periods of a two point mass system at a variety of step sizes to gain insight on to which method gave us the most accurate results the fastest. We mapped out the error in each method as well to better ascertain our results. Our error results were given in this graph below.
 
-![](/error.png)
+![](error.png)
 
 From this graph you can see that the error for the Euler at the largest time step was the most accurate, however its accuracy did not improve much as we decreased the step size, staying at a pretty consistent error value. This was not the case with the RK2 and RK4 however, showing a dramatic decrease in error as the step size lowered. While RK2 bottomed out at an error value around roughly 10 to the first, RK4's error decreased during the entirety of our decreasing step size. This accuracy is reflected in our orbital graphs for each method as seen below.
 
 For our Euler method the accuracy was very much off in the beginning but did decrease to a decent elliptical orbit at the smallest step size, however there is still a slight eccentricity in its orbit.
 
-![](/euler_traject.png)
+![](euler_traject.png)
 
 With the other two methods, RK2 and RK4, both start out with a rougher looking orbit but coalesce to a more accurate ellipse with RK4 taking a almost unnoticeable difference in accuracy.
 
-![](/rk2_traject.png)
-![](/rk4_traject.png)
+![](rk2_traject.png)
+![](rk4_traject.png)
 
 We theorize that had we let the RK4 run at an even smaller step size it would have garnered a much more accurate representation of the Kepler system orbit. For the intents of this project though, at the smallest step size that we were given to run, the three methods used were pretty close to each other for accuracy. Near the end, you can see euler becoming more and more inaccurate as the Total Energy begins to increase
 
-![](/energy_euler_small_steps.png)
-![](/energy_rk2_small_steps.png)
-![](/energy_rk4_small_steps.png)
+![](energy_euler_small_steps.png)
+![](energy_rk2_small_steps.png)
+![](energy_rk4_small_steps.png)
 
 As shown, the plots for the smallest steps energies were very close to each other, but this was not the case for the largest time step energies as shown below.
 
-![](/energy_euler_large_steps.png)
-![](/energy_rk2_large_steps.png)
-![](/energy_rk4_large_steps.png)
+![](energy_euler_large_steps.png)
+![](energy_rk2_large_steps.png)
+![](energy_rk4_large_steps.png)
 
 With such a large time step, the Total Energy quickly goes wild and does not stay constant like with a smaller step size.
 

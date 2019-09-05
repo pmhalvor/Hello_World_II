@@ -30,7 +30,9 @@ Report/closeout
 In order to verify that our constants that scale our central pressure and density, we ran our code from project 2 with our K_e multiplied by 0.5 and 2. Our values for alpha and beta in the tables did not change with a larger or smaller K_e. Screenshots of these tables are included in the repository as 0.5K.PNG and 2K.PNG
 
 # Mean molecular weight
+<html>
 <img src="https://github.com/MSU-AST304-FS2018/gcp3-main-sequence-armadillos/blob/master/pics/mu.PNG?raw=true" width= 200px>
+</html>
 
 The mean molecular weight is the ratio of the total weight of the star versus the total of free floating particles in the star. Assuming all the atoms are fully ionized, the number of free floating electrons will be equal to the respective number of protons in each element. Our method takes in the different fractions of hydrogen, helium and nitrogen our low mass star consists of as arguments. Inside the method, we define the nucleus and proton counts for each element. We return the inverse of the sum of the different proportions.
 

@@ -4,4 +4,4 @@
 
 ## [The life of a Main Sequence star](mainsequence)
 
-## [The internal pressure of a White dwarf][whitedwarf]
+## [The internal pressure of a White dwarf](whitedwarf)
