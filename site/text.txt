@@ -1,0 +1,1 @@
+Everything form site should be in this folder.
