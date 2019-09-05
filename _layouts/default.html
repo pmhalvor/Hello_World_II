@@ -12,6 +12,17 @@
   <body>
 
     <header>
+		<nav>
+			<ul>
+				<li><a href="https://pmhalvor.github.io/index.html#my_anchor">home</a></li>
+				<li><a href="https://pmhalvor.github.io/about">about</a></li>
+				<li><a href="https://pmhalvor.github.io/cv">cv</a></li>
+				<li><a href="https://pmhalvor.github.io/Hello_World_II">codes</a></li>
+				<li><a href="https://pmhalvor.github.io/blog">blog</a></li>
+				<li><a href="https://pmhalvor.github.io/reviews">reviews</a></li>
+				<li><a href="https://pmhalvor.github.io/poetry">poetry</a></li>
+			</ul>
+		</nav>
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
@@ -25,17 +36,6 @@
         </section>
       </div>
     </header>
-    <nav>
-      <ul>
-        <li><a href="https://pmhalvor.github.io/index.html#my_anchor">home</a></li>
-        <li><a href="https://pmhalvor.github.io/about">about</a></li>
-        <li><a href="https://pmhalvor.github.io/cv">cv</a></li>
-        <li><a href="https://pmhalvor.github.io/Hello_World_II">codes</a></li>
-        <li><a href="https://pmhalvor.github.io/blog">blog</a></li>
-        <li><a href="https://pmhalvor.github.io/reviews">reviews</a></li>
-        <li><a href="https://pmhalvor.github.io/poetry">poetry</a></li>
-      </ul>
-    </nav>
     <div class="container">
       <section id="main_content">
         {{ content }}
