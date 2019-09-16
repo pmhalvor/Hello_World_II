@@ -36,7 +36,6 @@ e_mu = 40
 plt.bar(qmin_interval, prob_trips, label='my data')
 plt.plot(x, stats.lognorm.pdf(x, s, loc, e_mu), label='lognorm(x,{},{},{})'.format(s, loc, e_mu), color='salmon')
 plt.legend()
-
 plt.xlabel("1 interval = a quarter minute")
 plt.ylabel("Probabilty of trip")
 plt.xlim(left=0, right=300)
