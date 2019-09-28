@@ -6,9 +6,10 @@ This repository is a collection of the various projects I've worked on throughou
 Overview of all the files in the Python directory. Further explainations can be found in the directory's README.md.
 
 1. [Astronomy](Python/Astronomy)
-2. Examples
-3. FIFA
-4. File Reader
-5. Google
-6. Statistics
-7. TDS
+2. [Citibikes](Python/Citibikes)
+3. [Examples](Python/Examples)
+4. [FIFA](Python/FIFA)
+5. [File Reader](Python/FileReader)
+6. [Google](Python/Google)
+7. [Statistics](Python/Statistics)
+8. [TDS](Python/TDS)
