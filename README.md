@@ -2,8 +2,17 @@
 
 This repository is a collection of the various projects I've worked on throughout my journey into the world of computer science.
 
+## [Java](Java)
+Some projects I've completed using Java. Further explanations can be found in the Java directory's README.md
+
+1. [Decryption assembly line using Threads](Java/DecryptionWithThreads)
+2. [Labyrinth](Java/Labyrinth)
+3. [Linked Lists](Java/LinkedLists)
+4. [Clusters](Java/SimpleClusters)
+5. [Hospital System (in Norwegian)](Java/SykehusSystem)
+
 ## [Python](Python)
-Overview of all the files in the Python directory. Further explainations can be found in the directory's README.md.
+Some example projects written by me in Python. Further explanations can be found in the Python directory's README.md.
 
 1. [Astronomy](Python/Astronomy)
 2. [Citibikes](Python/Citibikes)
