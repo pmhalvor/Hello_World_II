@@ -1,0 +1,1 @@
+The file ```read_textfile.py``` contains method that read through a text file and print a table of the 50 most used words in the file. The purpose will be to implement this into some semantic analysis of articles online. 
