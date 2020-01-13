@@ -15,3 +15,6 @@ This was our first assignment where we were to create pur own version of Cluster
 
 ### Hospital System
 System containing doctors, patient, prescriptions, medicines and other typical traits one would expect to find in a hospital.
+
+### Server
+TCP based client/server sockets used to send Strings over networks without any third parties. 

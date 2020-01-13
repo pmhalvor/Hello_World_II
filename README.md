@@ -2,14 +2,15 @@
 
 This repository is a collection of the various projects I've worked on throughout my journey into the world of computer science.
 
-## [Java](https://github.com/pmhalvor/Hello_World_II/tree/master/Java)
+## [Java](Java)
 Some projects I've completed using Java. Further explanations can be found in the Java directory's README.md
 
-1. [Decryption assembly line using Threads](https://github.com/pmhalvor/Hello_World_II/tree/master/Java/DecryptionWithThreads)
-2. [Labyrinth](https://github.com/pmhalvor/Hello_World_II/tree/master/Java/Labyrinth)
-3. [Linked Lists](https://github.com/pmhalvor/Hello_World_II/tree/master/Java/LinkedLists)
-4. [Clusters](https://github.com/pmhalvor/Hello_World_II/tree/master/Java/SimpleClusters)
-5. [Hospital System (in Norwegian)](https://github.com/pmhalvor/Hello_World_II/tree/master/Java/SykehusSystem)
+1. [Decryption assembly line using Threads](Java/DecryptionWithThreads)
+2. [Labyrinth](Java/Labyrinth)
+3. [Linked Lists](Java/LinkedLists)
+4. [Clusters](Java/SimpleClusters)
+5. [Hospital System (in Norwegian)](Java/SykehusSystem)
+6. [Server](Java/Server)
 
 ## [Python](Python)
 Some example projects written by me in Python. Further explanations can be found in the Python directory's README.md.
