@@ -22,7 +22,7 @@ const db = mysql.createConnection({
 });
 
 // Connect
-db.connect((err)=>{
+db.connect((err)=>{ 
     if(err){
         throw err;
     }
